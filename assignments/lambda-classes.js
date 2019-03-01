@@ -117,9 +117,29 @@ const tyler = new Student({
     favSubjects: ['React', 'Data Science', 'Java']
 });
 
+const tom = new ProjectManager ({
+    name: 'Tom',
+    location: 'Hilo, HI',
+    age: 23, 
+    gender: 'male',
+    gradClassName: 'ADR2014' ,
+    favInstructor: 'Kevin'
+});
+
+const alanna = new ProjectManager ({
+    name: 'Alanna',
+    location: 'Dover, DE',
+    age: 25, 
+    gender: 'female',
+    gradClassName: 'IOS2016' ,
+    favInstructor: 'Josh'
+});
+
 console.log(joe.demo("Python"));
 console.log(jane.catchPhrase);
 console.log(karen.speak());
 console.log(sam.PRAssignment('JavaScript-III'));
 console.log(vanessa.sprintChallange('Swift'));
 console.log(tyler.listsSubjects());
+console.log(tom.standUp('after_hours'));
+console.log(alanna.debugsCode('Vanessa', 'CocoaTouch'));
